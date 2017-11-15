@@ -16,7 +16,7 @@ It hides real error reason in case of 5xx errors and replaces it for `Applicatio
 
 ### Installation
 
-1. Install npm package: `yarn add @keboola/serverless-default-error-responses`
+1. Install npm package: `yarn add @keboola/serverless-default-error-responses --dev`
 2. Add plugin to your `serverless.yml`:
 ```yaml
 plugins:
