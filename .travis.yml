@@ -5,7 +5,7 @@ deploy:
   provider: npm
   email: devel@keboola.com
   api_key:
-
+    secure: "hlv6BIHP81c93CX3pYqGr/I7frOJX/SJadS2o5Kf9eQ60SgHjQsHxNuD9+sIAtYhTLIGmyvJjCZAg9+1B5nC6wYz8H+9nzJROuYvkSkjHo+aIbU09eu7BIdn35uCowd/LEX2Fd/POt/Ix9oM8+qaabOgnXtTOoi/C9qinV7+EPlvoccgKAUG/d1BC6jFH8xE5mIJtURf4bspmBiYQItwlU2Dllc3gca8wz9z/z9IgACuKfzvCYHYqfWCU4D6M2nzy70SB4lSFcikcqCtJtckCrl5w73Vg75IeeFNFr2N/jjVaUp5260fMft4aCEsavfuISRJykc02FlHjFCp71MUDm8JkN+Nyjdfp2bZULQI+9RbLwqUBXJqP2ipMzzBTW7JPML1afCUAH/m71bxZV9wjTD/2nQ1qMg8iQ6MhPcdKz23hdvAcpswJe/02zCWKnC2t5Sr0OrEvD4ujIEnLolLL6oKcGVJ1kcFQo8EOlh1U2ghr6f7RN+hfAKmMalU7qY7ZseI5TqvD0Su6p4hbIAQgTqoL8NQaFm2D4k6KcsvDu0PufKRu4Eb1ro0wxyyEV7AFSec3UVeKU0k4CywlQx53xFC0iyFdV65r21kGmTSyRHEvOKo/CpGAOGBdAJIqYCjjrVMaGvGyFHu+Qqi4HY8MEipBHjmEUhztscFz8MND2o="
   on:
     tags: true
     repo: keboola/serverless-default-error-responses
