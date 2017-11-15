@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: devel@keboola.com
+  api_key:
+
+  on:
+    tags: true
+    repo: keboola/serverless-default-error-responses
+    branch: master

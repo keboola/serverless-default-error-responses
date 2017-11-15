@@ -1,0 +1,18 @@
+{
+  "name": "@keboola/serverless-default-error-responses",
+  "version": "1.0.0",
+  "description": "Serverless plugin that adds unified API Gateway responses for error states",
+  "main": "src/index.js",
+  "repository": "https://github.com/keboola/serverless-default-error-responses",
+  "author": "Jakub Matejka <jakub@keboola.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "serverless": "^1.24.1"
+  }
+}
