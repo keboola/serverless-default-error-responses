@@ -29,7 +29,7 @@ class ErrorHandling {
             },
             ResponseType: 'DEFAULT_4XX',
             ResponseTemplates: {
-              'application/json': '{"errorMessage":$context.error.messageString, "errorType": "$context.error.responseType", "apiRequestId": "$context.requestId"}',
+              'application/json': '{"errorMessage":$context.error.messageString, "errorCode": "$context.status", "apiRequestId": "$context.requestId"}',
             },
             RestApiId: { Ref: this.provider.naming.getRestApiLogicalId() },
           },
@@ -43,7 +43,7 @@ class ErrorHandling {
             },
             ResponseType: 'DEFAULT_5XX',
             ResponseTemplates: {
-              'application/json': '{"errorMessage":"Application Error", "errorType": "ApplicationError", "apiRequestId": "$context.requestId"}',
+              'application/json': '{"errorMessage":"Application Error", "errorCode": 500, "apiRequestId": "$context.requestId"}',
             },
             RestApiId: { Ref: this.provider.naming.getRestApiLogicalId() },
           },

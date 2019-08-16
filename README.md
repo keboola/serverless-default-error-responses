@@ -7,7 +7,7 @@ Serverless plugin that adds unified API Gateway responses for error states. It a
 ```json
 {
   "errorMessage": "Application Error", 
-  "errorType": "ApplicationError", 
+  "errorCode": 500, 
   "apiRequestId": "2e2819fa-c93c-11e7-a46f-91ce8f8df51e"
 }
 ```

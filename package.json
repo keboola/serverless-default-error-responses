@@ -1,6 +1,6 @@
 {
   "name": "@keboola/serverless-default-error-responses",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Serverless plugin that adds unified API Gateway responses for error states",
   "main": "src/index.js",
   "repository": "https://github.com/keboola/serverless-default-error-responses",
