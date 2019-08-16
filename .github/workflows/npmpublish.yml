@@ -1,4 +1,4 @@
-name: @keboola/serverless-default-error-responses
+name: "@keboola/serverless-default-error-responses"
 
 on: release
 
