@@ -21,3 +21,7 @@ It hides real error reason in case of 5xx errors and replaces it for `Applicatio
 plugins:
 - '@keboola/serverless-default-error-responses'
 ```
+
+## License
+
+MIT licensed, see [LICENSE](./LICENSE) file.
